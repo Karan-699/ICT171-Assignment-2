@@ -1,0 +1,270 @@
+*{
+margin: 0;
+padding: 0;
+}
+body,html{
+height: 100%;
+width: 100%;
+}
+#page1{
+height: 100%;
+}
+
+
+nav{
+background-color: rgb(24, 24, 24);
+height: 10%;
+width: 100%;
+color: white;
+display: flex;
+justify-content: space-between;
+font-size: 22px;
+}
+.left h3{
+text-transform: uppercase;
+padding :23px;
+}
+.right ul{
+display: flex;
+}
+.right ul li {
+list-style: none;
+padding: 23px;
+}
+.right ul li a{
+color: white;
+text-decoration: none;
+}
+.right ul li :hover{
+border: 2px solid lightgreen;
+padding: 3px;
+border-radius: 14px;
+}
+
+.body{
+background-color: black;
+height: 90%;
+width: 100%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.body h1{
+letter-spacing: 10px;
+text-transform: uppercase;
+font-size: 25vw;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+
+
+}
+#page2 {
+width: 100%;
+background-color: black;
+color: white;
+padding: 60px 0;
+font-family: 'Poppins', sans-serif;
+}
+.text h1{
+letter-spacing: 8px;
+overflow: hidden;
+display: inline-block;
+font-size: 64px;
+text-align: center;
+margin: 34px;
+
+}
+
+.about {
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+gap: 30px;
+}
+
+
+
+.about-box {
+overflow: hidden;
+display: inline-block;
+word-spacing: 0.3em;
+cursor: pointer;
+background-color: #1a1a1a;
+padding: 25px 30px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+flex: 1;
+min-width: 220px;
+}
+.about-box:hover{
+background-color: #191313;
+transform: scale(1.03);
+transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.about-box h2 {
+font-size: 1.8rem;
+margin-bottom: 10px;
+color: white;
+text-transform: uppercase;
+}
+
+.about-box p {
+font-size: 1rem;
+line-height: 1.6;
+color: white;
+}
+
+#page3{
+padding-left: 0;
+overflow: visible;
+height: 100%;
+width: 100%;
+display: flex;
+background-color: #070a0c;
+overflow-x: hidden;
+
+position: relative;
+
+}
+#page3 h1{
+font-family: 'Poppins', sans-serif;
+
+
+position: absolute;
+top: 20%;
+/* margin-left: 60%; */
+/* margin: 34px; */
+color: white;
+font-size: 45vw;
+text-transform: uppercase;
+}
+
+#page4 {
+width: 100%;
+background-color: black;
+color: white;
+padding: 60px 0;
+font-family: 'Poppins', sans-serif;
+}
+
+.contact-text h1 {
+font-size: 64px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.contact-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact-form {
+background-color: #1a1a1a;
+padding: 30px;
+border-radius: 10px;
+width: 90%;
+max-width: 600px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.contact-form input,
+.contact-form textarea {
+background-color: transparent;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 12px;
+color: white;
+font-size: 1rem;
+resize: none;
+outline: none;
+}
+
+.contact-form button {
+background-color: black;
+border: none;
+padding: 12px;
+border-radius: 5px;
+color: white;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+background-color: rgb(40, 40, 156);
+}
+
+#custom-cursor {
+position: fixed;
+top: 0;
+left: 0;
+width: 50px;
+height: 50px;
+background-color: greenyellow;
+border-radius: 50%;
+pointer-events: none;
+z-index: 9999;
+transform: translate(-50%, -50%);
+transition: transform 0.1s ease;
+}
+
+.heading{
+text-align: center;
+}
+
+.site-footer {
+background-color: rgb(24, 24, 24);
+color: white;
+padding: 20px 0;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+position: relative;
+width: 100%;
+bottom: 0;
+margin-top: 40px;
+user-select: none;
+}
+
+.footer-content p {
+margin-bottom: 8px;
+font-size: 0.9rem;
+}
+
+.footer-nav a {
+color: white;
+text-decoration: none;
+margin: 0 8px;
+font-size: 1rem;
+transition: color 0.3s ease;
+}
+
+
+.footer-nav a:hover {
+color: lightgreen;
+text-shadow: 0 0 8px lightgreen, 0 0 12px lightgreen;
+}
+
+.image-gallery {
+display: flex;
+gap: 30px;
+justify-content: center;
+margin-top: 60px;
+flex-wrap: wrap;
+}
+
+.pop-img {
+width: 300px;
+height: 200px;
+object-fit: cover;
+opacity: 0;
+transform: scale(0.8) translateY(30px);
+transition: transform 0.3s ease;
+border-radius: 12px;
+}
