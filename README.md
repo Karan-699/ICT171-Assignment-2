@@ -1,4 +1,4 @@
-# ICT171-Assignment-2
+Portfolio
 This is my ICT171 Assignment 2 cloud server project for Murdoch University. The project demonstrates the setup and deployment of a secure website on an AWS EC2 instance using Apache2. It showcases a portfolio using HTML, CSS, and cloud infrastructure, with automated Apache monitoring and version control via GitHub.
 
 🌐 Live Website
